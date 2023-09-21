@@ -1,0 +1,108 @@
+#heading{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style:groove;
+    border-radius: 20px;
+    width: 240px;
+    height: 80px;
+    margin: auto;
+    text-align:center;
+    color: rgb(92, 30, 151);
+    background-color: rgb(254, 243, 255);
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.link#l1{
+    font-weight: lighter;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+.link#l2{
+    font-weight: lighter;
+    line-height: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 90px;
+}
+.link#l3{
+    font-weight: lighter;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 90px;
+}
+#a1, #i1{
+    color: rgb(252, 219, 250);
+    width: 360px;
+    height: 280px;
+}
+#a2, #i2{
+    color:rgb(223, 255, 255) ;
+    width: 360px;
+    height: 280px;
+}
+#a3, #i3{
+    color: rgb(255, 238, 238);
+    width: 360px;
+    height: 280px;
+}
+body{
+    background-color:rgb(241, 241, 254);
+}
+#intro{
+    color:rgb(54, 0, 54);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    font-family:fantasy;
+    font-size: 21px;
+    word-spacing:normal;
+    line-height: 30px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.items{
+    gap:40px;
+    display: flex;
+    margin-left: 80px ;
+}
+.info{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: fantasy;
+    font-size: 21px;
+    word-spacing:normal;
+    line-height: 30px;
+    font-weight: lighter;
+}
+#des{
+    margin-left: 40px;
+    font-family: fantasy;
+    font-size: 26px;
+    word-spacing:normal;
+    line-height: 20px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 32px;
+    word-spacing:normal;
+    line-height: 30px;
+    font-weight: bolder;  
+}
+#images{
+    display: grid;
+    place-items: center;
+}
+.list{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: fantasy;
+    font-size: 21px;
+    word-spacing:normal;
+    line-height: 30px;
+    font-weight: lighter;
+}
